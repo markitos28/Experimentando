@@ -1,0 +1,41 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  background: #323232;
+}
+
+.box {
+  margin: 2rem;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  box-shadow: 0 1 1 rgba(0, 0, 0, 0.2);
+}
+
+.masonry-layout {
+  --columns: 1;
+  --gap: 2rem;
+  display: grid;
+  grid-template-columns: repeat(var(--columns), 1fr);
+  grid-gap: var(--gap);
+}
+.masonry-layout .masonry-item {
+  margin-bottom: var(--gap);
+  border: 1px solid #ffac41;
+}
+.masonry-layout.columns-1 {
+  --columns: 1;
+}
+.masonry-layout.columns-2 {
+  --columns: 2;
+}
+.masonry-layout.columns-3 {
+  --columns: 3;
+}
+.masonry-layout.columns-4 {
+  --columns: 4;
+}
+.masonry-layout.columns-5 {
+  --columns: 5;
+}

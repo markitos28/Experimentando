@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Formularios</title>
+	<link rel="stylesheet" href="style_Formulario.css">
+	<script src="script_Formulario.js" type="text/javascript" charset="utf-8" async defer></script>
+</head>
+<body>
+	<section>
+		<form name="Compra_de_producto" id="formulario" method="get" autocomple="on" accept-charset="utf-8">
+<!--			Nombre y Apellido:&nbsp;<input type="text" name="NyA" id="NombreyApellido"><br>
+			Correo:&nbsp;<input type="email" name="Email" id="correo"><br>
+			Buscar: &nbsp; <input type="search" name="Buscador" id="Busqueda"><br>
+			URL: &nbsp; <input type="url" name="Link" id="url"><br>
+			Telefono: &nbsp; <input type="Tel" name="Telefono" id="Telefono"><br>
+			Edad: &nbsp; <input type="Number" name="Edad" id="edad" min="0" max="108" step="2" placeholder="Edad multiplos de 2"><br>
+			Años Conduciendo: &nbsp; <input type="range" name="Rango" id="Rango_Conduciendo" min="18" max="70"><br>
+			Fecha de nacimiento: &nbsp; <input type="date" name="Nacimiento" id="Nacimiento_date" required="true"><br>
+			Meses dentro de la Empresa: &nbsp; <input type="month" name="Mes_in_Job" id="MesesTrabajo"><br>
+			Semanas de Vacaciones: &nbsp; <input type="week" name="week" id="SemanasVacaciones" multiple="true"><br>
+			Cantidad de horas laborales: &nbsp; <input type="time" name="horas" id="HorasTrabajadas" autofocus="true"><br>-->
+			Codigo Postal: &nbsp; <input pattern="[0-9]{4}" name="CodPostal" id="CP" placeholder="5 digitos"><br>
+			<input type="submit" value="Comprar"><br>
+		</form>
+	</section>
+
+	<p> Se genera una nueva seccion para que agregue el nombre de su madre</p>
+	Nombre de la Madre: <input type="text" name="NombreMadre" id="nombreMadre" form="formulario">
+</body>
+</html>

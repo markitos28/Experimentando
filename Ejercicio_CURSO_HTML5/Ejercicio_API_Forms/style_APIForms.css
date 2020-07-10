@@ -1,0 +1,25 @@
+body
+{
+	background:#606060;
+}
+table
+{
+	text-align: center;
+	background-color: #8679FF;
+	width: :30%;
+	margin:auto;
+	border:3px #2515F2 dashed;
+	border-radius: 3px;
+}
+
+td
+{
+	font:20px TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+	padding: 10px;
+
+}
+
+input
+{
+
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>API Forms</title>
+	<link rel="stylesheet" href="style_APIForms.css">
+	<script src="script_APIForms.js" type="text/javascript" charset="utf-8" async defer></script>
+</head>
+<body>
+	<section>
+		<!--<form action="registro" method="get" accept-charset="utf-8">
+			<datalist id=informacion>
+				<option value="11-5606-1276" label=" Marcos N Sosa">
+				<option value="11-5629-7727" label=" Sergio G Sosa">
+				<option value="11-5594-5481" label=" Noemi A Gaspar">
+			</datalist>
+
+			Telefono: &nbsp;<input type="tel" name="telefono" id="telefono" list="informacion">
+		</form> -->
+
+		<!-- Creamos un formulario en formato tabla para empezar a usar la api -->
+
+		<form name="registro_usuario" method="get" accept-charset="utf-8">
+			<!--<table> <!~~ con <tr> se agrega un registro. con <td> se agrega una columna~~>
+				<tr><td>Nombre:</td> <td><input type="text" name="nombre" id="nombre"></td>
+				<tr><td>Apellido:</td> <td><input type="text" name="apellido" id="apellido"></td>
+				<tr><td>Edad:</td> <td><input type="number" name="edad" id="edad" min="1" max="100"></td>
+				<tr><td> <input type="submit" id="Enviar" value="Registrar"></td>
+			</table>-->
+			<table> 
+				<tr><td>Nombre:</td> <td><input type="text" name="nombre" id="nombre"></td>
+				<tr><td>Apellido:</td> <td><input type="text" name="apellido" id="apellido"></td>
+				<tr><td>Edad:</td> <td><input type="number" name="edad" id="edad" min="1" max="100"></td>
+				<tr><td> <input type="submit" id="Enviar" value="Registrar"></td>
+			</table>
+			
+		</form>
+	</section>
+</body>
+</html>

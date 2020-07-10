@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Pagina con Audio</title>
+	<link rel="stylesheet" href="Estilos_Audio.css">
+	<script src="Funcion_Audio.js" charset="utf-8"> </script>
+</head>
+<body>
+	<section id="reproductor">
+		<audio id="pistaAudios" autobuffer autoloop loop >
+			<source src="../audio/Alan Walker - Faded.mp3">
+			<source src="../audio/Alan Walker - Faded.ogg">
+		</audio>
+		<nav>
+			<div id="botones">
+				<button type="button" id="reproducir">
+					Play
+				</button>
+			</div>
+			<div id="barra">
+				<div id="progreso">
+				</div>
+			</div>
+		</nav>
+	</section>
+</body>
+</html>

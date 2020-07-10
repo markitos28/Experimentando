@@ -1,0 +1,41 @@
+#Video
+{
+	width:480px;
+	margin: 2px auto;
+	border-radius: 5px;
+	background: #5F5F5F;
+	padding:5px;
+	-moz- border:2px solid #171717;
+	-webkit- border:2px solid #171717;
+	-ms- border:2px solid #171717;
+}
+
+nav
+{
+	margin:3px 0;
+}
+
+#botones
+{
+	float:left;
+	width:100px;
+	height: 50px;
+}
+
+#barra
+{
+	background: #FFFFFF;
+	width: 400px;
+	height: 16px;
+	border: 1px solid #FD0505;
+	padding: 2px;
+	margin-left: 60px;
+}
+
+#progreso
+{
+	position:absolute;
+	width: 0px;
+	height: 16px;
+	background: red; /*rgba(253,5,5,2);*/
+}
